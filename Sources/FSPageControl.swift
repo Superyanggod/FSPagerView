@@ -100,6 +100,7 @@ open class FSPageControl: UIControl {
             return frame
         }()
     }
+    
     @available(iOS 10.0, *)
     open override func layoutSublayers(of layer: CALayer) {
         super.layoutSublayers(of: layer)
